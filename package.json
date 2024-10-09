@@ -1,0 +1,19 @@
+{
+  "name": "g2p-api",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.1",
+    "@solana/web3.js": "^1.95.3",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.33.0",
+    "helius-airship-core": "0.5.4",
+    "hono": "^4.6.3",
+    "sqlocal": "^0.11.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
